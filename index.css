@@ -108,6 +108,7 @@ button {
   top: 76.5px;
   transform: rotate(-41deg);
 }
+
 .star5 {
   margin: 0 auto;
   border-top: 15px solid transparent;
@@ -121,6 +122,7 @@ button {
   top: 43px;
   transform: rotate(165deg);
 }
+
 .starCenter {
   border-radius: 20px;
   width: 45px;
@@ -180,6 +182,7 @@ button {
   position: absolute;
   top: 0px;
 }
+
 .heart.circle.right {
   position: absolute;
   top: 0px;
@@ -270,6 +273,7 @@ button {
   border-left: 0px solid transparent;
   position: absolute;
 }
+
 .triangleBorder-11 {
   left: -3px;
   top: -22px;
@@ -279,6 +283,7 @@ button {
   transform: rotate(180deg);
   border-right: 40px solid rgb(67, 33, 160);
 }
+
 .triangleBorder-12 {
   left: 42px;
   top: -22px;
@@ -287,57 +292,67 @@ button {
   border-left: 0px solid transparent;
   border-right: 40px solid rgb(67, 33, 160);
 }
+
 .triangleBorder-1 {
   left: -1px;
   transform: rotate(0deg);
 }
+
 .triangleBorder-2 {
   transform: rotate(180deg);
   top: 20px;
   left: -1px;
 }
+
 .triangleBorder-3 {
   top: 0px;
   left: 41px;
   transform: rotate(180deg);
   border-right: 40px solid rgb(5, 34, 5);
 }
+
 .triangleBorder-4 {
   top: 20px;
   left: 41px;
   transform: rotate(0deg);
   border-right: 40px solid rgb(5, 34, 5);
 }
+
 .triangleBorder-5 {
   top: 42px;
   left: 40px;
   transform: rotate(180deg);
   border-right: 40px solid rgb(16, 124, 143);
 }
+
 .triangleBorder-6 {
   transform: rotate(0deg);
   top: 42px;
   left: 0px;
   border-right: 40px solid rgb(16, 124, 143);
 }
+
 .triangleBorder-7 {
   transform: rotate(180deg);
   top: 64px;
   left: -2px;
   border-right: 40px solid rgb(18, 16, 143);
 }
+
 .triangleBorder-8 {
   transform: rotate(0deg);
   top: 84px;
   left: -2px;
   border-right: 40px solid rgb(18, 16, 143);
 }
+
 .triangleBorder-9 {
   transform: rotate(0deg);
   top: 64px;
   left: 40px;
   border-right: 40px solid rgb(74, 73, 138);
 }
+
 .triangleBorder-10 {
   transform: rotate(180deg);
   top: 84px;
@@ -369,6 +384,40 @@ button {
 }
 
 .rowOfPatterns {
-  width: 300px;
+  width: 260px;
   float: left;
+}
+
+@media (max-width: 660px) {
+
+  hr,
+  .containerGame {
+    margin: 0;
+  }
+
+  .square, .circle {
+    width: 95px;
+    height: 95px;
+  }
+
+  .triangle{
+    transform: scale(0.8);
+  }
+
+  button,
+  h3 {
+    margin: 10px;
+  }
+
+  .wrapperShirt,
+  .wrapperCard,
+  .disabledCard {
+    width: 140px;
+    height: 150px;
+  }
+
+
+
+
+
 }
