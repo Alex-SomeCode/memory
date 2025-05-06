@@ -395,29 +395,24 @@ button {
     margin: 0;
   }
 
-  .square, .circle {
-    width: 95px;
-    height: 95px;
+  .circle {
+    width: 40px;
+    height: 40px;
   }
 
-  .triangle{
-    transform: scale(0.8);
-  }
-
-  button,
+  button{margin: 7px 0px;}
   h3 {
-    margin: 10px;
+    margin: 5px 0px 10px 0px;
+  }
+  .triangle, .square, .containerRelative {
+    transform: scale(0.3);
   }
 
   .wrapperShirt,
   .wrapperCard,
   .disabledCard {
-    width: 140px;
-    height: 150px;
+    width: 125px;
+    height: 75px;
   }
-
-
-
-
 
 }
